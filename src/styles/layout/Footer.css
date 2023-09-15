@@ -1,0 +1,14 @@
+.footer-custome{
+    background-image: url(https://s3-alpha-sig.figma.com/img/cd0e/3a5c/0da750538f820c3e09246b013221e9e7?Expires=1695600000&Signature=TsMmrhGQ5Y1Vx2H2VHj0ImX~Yl8wb5dXGivaVJ~mVeuloBsSeZWM54BkZGWvOx0HrKil4L~cxRQ7DZ73gDTpsUFOi0nIQqcvQ6172WGEUHwrWgSNXPlq0Mw7ot8rpkSOypucLOCKBFqAjdhPAF88Ji0wC4hrWGAS9ssoslvlMitNxjZgMYgVnAvA3cAf0JkUmH~ijjashhR3YcqiL9unyjEEUOpepOyw~EPZGW5hYQAoZd2NpgJFcP9zqrx7yR0Z73Z28AQ9FzSalFzw-4hWUdeetqSFOwEX5xHJNNEnnuMo5D~0cQqD~6IY046EtPy-hr1SZw7S~pDAwBmCPvi2og__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+}
+.sm-icon{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #6F6F6F;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

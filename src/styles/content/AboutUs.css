@@ -1,0 +1,15 @@
+.counter{
+    background-image:linear-gradient(to top, rgba(170, 171, 176, 0), rgba(0, 0, 0, 0.7)),
+    url(https://s3-alpha-sig.figma.com/img/05c4/bea0/a345842c6f2c104bd5c88dd70938d471?Expires=1695600000&Signature=kpk06XOQXE7ygExAKCpUINVjN6iSEDELNOy36UF~ACzb1ABgcVan4rlN8VhxhKRtbFmcF3tpml88q7dwCn~J70hrIuNuVA68Ygj4-cYgPsnSYx-XwSW4FP7ScJ~no0rZm2Mk4L1hyhp5st0iYjg~lyUriE4NCe5emgVKhVWRY2swLI2yvgz3JNakTfK9dMZI9gIJkn8CmV12qNuMo9gcq-njFmL4lxc5UsWRirWAGEwbhuLpUjToyw9S8~cwGak~JFcJU5G1MhCPMrw7JALwLfJBY-z2m96ntP6M3EuqbcZS3ieEaSGJ-ppU9764dkYNKpqC4os6guCdp2UYeXNCLg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+
+   
+    background-size: cover;
+    background-position: center;
+}
+.stats .statCard{
+    background: transparent;
+    border: none;
+}
+.stats .statCard .card-text{
+    color:#fff
+}

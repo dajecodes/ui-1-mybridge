@@ -1,0 +1,123 @@
+.hero{
+    background-image:linear-gradient(to top, rgba(170, 171, 176, 0), rgba(0, 0, 0, 0.7)),
+     url(https://s3-alpha-sig.figma.com/img/209c/93da/20df96e48b1012379901a043f14de130?Expires=1694995200&Signature=bSITqq33y8n73-~i1PmwAl0-0S6VK2onabGcFq70KpSD5N7pVanS~SOGvBJePZLLyx0oBR3pbtTa5LsYJCUN4lZCwxEkwRJ5WTKkO96tqk6a95DQ-JXf4CziKZ3tBt2c18gEtWrZxHIMLWX~uG8Q-V1HOg5M8XPL4zpSCRDPKkOIu4Pdmbb0N3zHJyDZ3wKJnWV6WYf78p49kIsUbIxJex6bcJ7v5NIqH04QwYHeB2xNyslQU2Zzroj~23pe~qQSrqxF7FjcF39r-FhtvCw2DRD8-lawOSKul1jOzhIHLuE6rGRXQHP-ttJDlu-iNQ8AUw2~g6aKyTRD28kg0opAww__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+ 
+    background-size: cover;   
+    overflow: hidden; 
+
+}
+.btn{
+    border-radius: 0 !important;
+    padding: 0.5rem 1rem;
+}
+
+.hero-arrows
+{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 1rem;
+
+}
+
+.about-bridge{
+    background-color: #fff;
+    background-image: url(https://s3-alpha-sig.figma.com/img/044b/2a11/dbd3afbf5251dc10f63b4aad5bfabd0a?Expires=1694995200&Signature=NzYZuHuUUXnNILHY0ql1cQh0zGvo1i6MAa9ayeOFUhBVTx8D7aY0hyib3xL3aLHx1K~WDiKrDQdWk21T-kFIwTPgi6TP~U2ow4W2h377bdf6sWAs1APm-FE9dTcEQD3N-6BuU5cdugF0STF9yU6k9CZbBaRtAYF-ExwaXFT51ojvyFUFDxqa-kVicxDrIU1f53i75h0~78F5RN8~V7nxxZFXFzNvV5XVG7StI1G8u7mNJEdp0nQRibAAtL2EKgBe2aeU90kW0Z65VInv-pPWvLwozX8D5FRRfxL3~aWEl0zBbO7u1fuHzqmc2Xe4tDRNOvCgPRfNKjftIzSHvX4j5Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    
+}
+
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+    .hero{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    .hero{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    .hero h4{
+        font-size: 1rem;
+        letter-spacing: 0.1rem;      
+        
+    }
+    .hero h1{
+        font-size: 4rem;
+    }
+    .hero p{
+        font-size: 0.8rem;
+        width: 50vw; 
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .hero{
+        display: block;
+        
+        
+    }
+    .hero h4{
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        
+        
+    }
+    .hero h1{
+        font-size: 5rem;
+    }
+    .hero p{
+        font-size: 0.8rem;
+        width: 50vw; 
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .hero h4{
+        font-size: 1.2rem;
+        letter-spacing: 0.2rem;
+        
+    }
+    .hero h1{
+        font-size: 6rem;
+    }
+    .hero p{
+        font-size: 1.2rem;
+        width: 50vw; 
+    }
+}
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+    .hero h4{
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+        margin-top: 1rem;
+        
+    }
+    .hero h1{
+        font-size: 6rem;
+        margin-top: 1rem;
+    }
+    .hero p{
+        font-size: 1.5rem;
+        width: 50vw;
+    }
+}
